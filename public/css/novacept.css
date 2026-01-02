@@ -1,0 +1,180 @@
+/* =========================
+   GLOBAL / BASE
+========================= */
+
+:root {
+  --header-height: 64px;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0;
+  padding:0;
+}
+a{text-decoration:none; color:black;}
+a:hover{text-decoration:underline;}
+/* =========================
+   HEADER
+========================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+ 
+}
+.BBC_Logo{
+  background: black;
+  color: white;
+  padding: 0px 6px;
+}
+
+/* Top header (always visible) */
+.top-header {
+  position: sticky;
+  top: 0;
+  height: var(--header-height);
+  z-index: 1200;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+/* =========================
+   NAV VISIBILITY ON SCROLL
+========================= */
+
+.nav-wrapper {
+  transition: transform 0.3s ease;
+   background: #fff;
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
+}
+
+/* =========================
+   HAMBURGER
+========================= */
+
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* =========================
+   SIDE MENU (STATE BASED)
+========================= */
+
+.side-menu {
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+  background: #fff;
+  padding: 20px;
+  z-index: 1300;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+}
+
+/* open via React state */
+.side-menu.open {
+  transform: translateX(0);
+}
+
+/* =========================
+   OVERLAY
+========================= */
+
+.overlay {
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1200;
+}
+
+/* =========================
+   UTILITIES
+========================= */
+
+.nav-item {
+  cursor: pointer;
+}
+.nav-item> a:hover {
+  background-color: rgb(230, 232, 234) !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-12 {
+  font-size: 12px !important;
+}
+.Card{cursor:pointer !important;}
+.Card:hover h6.Card-title {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Card h6.Card-title {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.article-link {
+  text-decoration: none;
+  color: inherit;
+  cursor:pointer;
+}
+
+:hover .article-link:hover  {
+  text-decoration: underline;
+   cursor:pointer;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.bbc-footer a {
+  color: black !important;
+  text-decoration: none;
+}
+
+.bbc-footer a:hover {
+  text-decoration: underline !important;
+}
+.page-title {
+  margin-top: 1rem !important;
+  color: rgb(184, 0, 0) !important;
+  font-weight:900;
+  font-size:2rem;
+}
+
+.w-full{width:100%;}
+.h50{height:50dvh !important ;}
+/* =========================
+   Responsive Styles
+========================= */
+
+@media (min-width: 768px) {
+  .side-menu {
+    width: 280px;
+  }
+}

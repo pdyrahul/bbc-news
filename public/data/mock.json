@@ -1,0 +1,317 @@
+{
+  "hero": {
+    "main": {
+      "id": "global-leaders-economic-stability",
+      "slug": "global-leaders-economic-stability",
+      "title": "Global leaders meet to discuss economic stability",
+      "summary": "Talks focus on inflation, growth, and global cooperation.",
+      "image": "/assets/images/hero/hero-1.webp",
+      "isLive": true,
+      "lastUpdated": "1 hour ago",
+      "tag": "World",
+      "author": "John Anderson",
+      "place": "Washington DC"
+    },
+    "secondary": [
+      {
+        "id": "climate-agreement-momentum",
+        "slug": "climate-agreement-momentum",
+        "title": "New climate agreement gains momentum",
+        "summary": "Negotiators from major economies signaled renewed momentum toward a global climate agreement, focusing on emissions reductions, climate finance, and accountability mechanisms. Officials said recent talks helped narrow differences on targets and timelines, with further negotiations planned to finalize commitments and implementation frameworks ahead of the next international summit.",
+        "image": "/assets/images/hero/hero-2.webp",
+        "lastUpdated": "57 mins ago",
+        "tag": "Europe",
+        "author": "Emma Williams",
+        "place": "Brussels"
+      },
+      {
+        "id": "technology-firms-mixed-results",
+        "slug": "technology-firms-mixed-results",
+        "title": "Technology firms report mixed results",
+        "summary": "Several leading technology companies reported mixed quarterly results as demand softened in some markets while cloud and AI services showed resilience. Analysts noted cautious outlooks due to macroeconomic uncertainty, rising costs, and regulatory pressures, even as investment in innovation and efficiency remains a priority.",
+        "image": "/assets/images/hero/hero-3.webp",
+        "lastUpdated": "2 hours ago",
+        "tag": "Business",
+        "author": "David Lee",
+        "place": "San Francisco"
+      }
+    ]
+  },
+  "sport": {
+    "category": "Sport",
+    "articles": [
+      {
+        "id": "championship-finals-record-viewership",
+        "slug": "championship-finals-record-viewership",
+        "title": "Championship finals draw record viewership",
+        "image": "/assets/images/sport/sport-1.webp",
+        "summary": "The championship finals attracted record-breaking audiences across television and digital platforms, highlighting growing global interest in the sport and the impact of international broadcasting.",
+        "lastUpdated": "30 mins ago",
+        "tag": "Sport",
+        "author": "Marcus Johnson",
+        "place": "New York"
+      },
+      {
+        "id": "young-athletes-watch-season",
+        "slug": "young-athletes-watch-season",
+        "title": "Young athletes to watch this season",
+        "image": "/assets/images/sport/sport-2.webp",
+        "summary": "A new generation of young athletes is emerging this season, with scouts and analysts identifying several rising stars expected to make a significant impact across major competitions.",
+        "lastUpdated": "1 hour ago",
+        "tag": "Sport",
+        "author": "Rachel Martinez",
+        "place": "Los Angeles"
+      }
+    ]
+  },
+  "news": [
+    {
+      "id": "healthcare-systems-new-challenges",
+      "slug": "healthcare-systems-new-challenges",
+      "title": "Healthcare systems face new challenges",
+      "summary": "Healthcare systems across several countries are facing renewed pressure due to staffing shortages, rising treatment costs, and increasing demand for services. Experts warn that without sustained investment in infrastructure, digital systems, and workforce training, patient care and access could be significantly affected over the coming years.",
+      "image": "/assets/images/news/news-1.webp",
+      "lastUpdated": "45 mins ago",
+      "tag": "Health",
+      "author": "Dr. Sarah Mitchell",
+      "place": "Geneva"
+    },
+    {
+      "id": "education-reforms-nationwide",
+      "slug": "education-reforms-nationwide",
+      "title": "Education reforms announced nationwide",
+      "summary": "The government has announced a series of nationwide education reforms aimed at updating curricula, improving teacher training, and expanding access to digital learning tools. Officials say the changes are designed to better prepare students for future job markets and reduce long-standing regional inequalities.",
+      "image": "/assets/images/news/news-2.webp",
+      "lastUpdated": "1 hour ago",
+      "tag": "Education",
+      "author": "James Thompson",
+      "place": "London"
+    },
+    {
+      "id": "energy-prices-signs-easing",
+      "slug": "energy-prices-signs-easing",
+      "title": "Energy prices show signs of easing",
+      "summary": "Energy prices have begun to show signs of easing after months of volatility driven by supply disruptions and geopolitical tensions. Analysts say improved supply chains, seasonal demand shifts, and policy interventions have helped stabilize markets, though long-term uncertainty remains a concern.",
+      "image": "/assets/images/news/news-3.webp",
+      "lastUpdated": "2 hours ago",
+      "tag": "Business",
+      "author": "Michael Chen",
+      "place": "Singapore"
+    },
+    {
+      "id": "global-leaders-economic-stability",
+      "slug": "global-leaders-economic-stability",
+      "title": "Global leaders meet to discuss economic stability",
+      "summary": "World leaders convened for high-level discussions on economic stability, addressing concerns about inflation, sustainable growth, and international cooperation. The summit brought together finance ministers and central bank governors to coordinate policy responses and strengthen multilateral frameworks in an increasingly interconnected global economy.",
+      "image": "/assets/images/hero/hero-1.webp",
+      "lastUpdated": "3 hours ago",
+      "tag": "World",
+      "author": "John Anderson",
+      "place": "Washington DC"
+    },
+    {
+      "id": "climate-agreement-momentum",
+      "slug": "climate-agreement-momentum",
+      "title": "New climate agreement gains momentum",
+      "summary": "Negotiators from major economies signaled renewed momentum toward a global climate agreement, focusing on emissions reductions, climate finance, and accountability mechanisms. Officials said recent talks helped narrow differences on targets and timelines, with further negotiations planned to finalize commitments and implementation frameworks ahead of the next international summit.",
+      "image": "/assets/images/hero/hero-1.webp",
+      "lastUpdated": "4 hours ago",
+      "tag": "Environment",
+      "author": "Emma Williams",
+      "place": "Brussels"
+    },
+    {
+      "id": "technology-firms-mixed-results",
+      "slug": "technology-firms-mixed-results",
+      "title": "Technology firms report mixed results",
+      "summary": "Several leading technology companies reported mixed quarterly results as demand softened in some markets while cloud and AI services showed resilience. Analysts noted cautious outlooks due to macroeconomic uncertainty, rising costs, and regulatory pressures, even as investment in innovation and efficiency remains a priority.",
+      "image": "/assets/images/hero/hero-2.webp",
+      "lastUpdated": "5 hours ago",
+      "tag": "Technology",
+      "author": "David Lee",
+      "place": "San Francisco"
+    },
+    {
+      "id": "championship-finals-record-viewership",
+      "slug": "championship-finals-record-viewership",
+      "title": "Championship finals draw record viewership",
+      "summary": "The championship finals attracted record-breaking audiences across television and digital platforms, highlighting growing global interest in the sport and the impact of international broadcasting. Streaming numbers exceeded all previous records, with millions tuning in from over 180 countries to witness the historic matchup.",
+      "image":  "/assets/images/sport/sport-1.webp",
+      "lastUpdated": "6 hours ago",
+      "tag": "Sport",
+      "author": "Marcus Johnson",
+      "place": "New York"
+    },
+    {
+      "id": "young-athletes-watch-season",
+      "slug": "young-athletes-watch-season",
+      "title": "Young athletes to watch this season",
+      "summary": "A new generation of young athletes is emerging this season, with scouts and analysts identifying several rising stars expected to make a significant impact across major competitions. Their performances in recent tournaments have caught the attention of major leagues and sponsors, signaling a bright future for the sport.",
+      "image": "/assets/images/sport/sport-1.webp",
+      "lastUpdated": "7 hours ago",
+      "tag": "Sport",
+      "author": "Rachel Martinez",
+      "place": "Los Angeles"
+    },
+    {
+      "id": "inflation-global-concern",
+      "slug": "inflation-global-concern",
+      "title": "Why inflation remains a global concern",
+      "summary": "Inflation continues to challenge policymakers worldwide as central banks navigate the delicate balance between controlling price increases and supporting economic growth. Persistent supply chain disruptions, energy costs, and wage pressures are contributing to sustained inflationary trends across major economies.",
+      "image": "https://via.placeholder.com/800x450/92400e/ffffff?text=Inflation+Analysis",
+      "lastUpdated": "8 hours ago",
+      "tag": "Economy",
+      "author": "Patricia Brown",
+      "place": "Frankfurt"
+    },
+    {
+      "id": "policy-changes-meaning",
+      "slug": "policy-changes-meaning",
+      "title": "What the new policy changes mean",
+      "summary": "Recent policy announcements are set to reshape key sectors, with experts analyzing the potential impacts on businesses, consumers, and the broader economy. The changes address long-standing issues while introducing new frameworks for regulation and oversight that could have far-reaching implications.",
+      "image": "https://via.placeholder.com/800x450/155e75/ffffff?text=Policy+Update",
+      "lastUpdated": "9 hours ago",
+      "tag": "Politics",
+      "author": "Robert Wilson",
+      "place": "Ottawa"
+    },
+    {
+      "id": "latest-tech-trends",
+      "slug": "latest-tech-trends",
+      "title": "Inside the latest tech trends",
+      "summary": "The technology landscape continues to evolve rapidly, with artificial intelligence, quantum computing, and sustainable tech solutions taking center stage. Industry leaders are investing heavily in research and development, racing to deliver innovations that could transform how we live and work in the coming decade.",
+      "image": "https://via.placeholder.com/800x450/1e40af/ffffff?text=Tech+Trends",
+      "lastUpdated": "10 hours ago",
+      "tag": "Technology",
+      "author": "Jennifer Garcia",
+      "place": "Tokyo"
+    },
+    {
+      "id": "us-military-strike-drug-boats",
+      "slug": "us-military-strike-drug-boats",
+      "title": "US military says five killed in latest strike on alleged drug boats",
+      "summary": "The US military confirmed that five individuals were killed during a recent operation targeting vessels suspected of drug trafficking in international waters. Officials stated the action was part of ongoing efforts to disrupt illicit trafficking networks and maintain security in the region.",
+      "image": "https://via.placeholder.com/800x450/7f1d1d/ffffff?text=Military+Operation",
+      "lastUpdated": "11 hours ago",
+      "tag": "Military",
+      "author": "Colonel Mark Stevens",
+      "place": "Miami"
+    }
+  ],
+  "trending": [
+    {
+      "rank": 1,
+      "id": "inflation-global-concern",
+      "slug": "inflation-global-concern",
+      "title": "Why inflation remains a global concern"
+    },
+    {
+      "rank": 2,
+      "id": "policy-changes-meaning",
+      "slug": "policy-changes-meaning",
+      "title": "What the new policy changes mean"
+    },
+    {
+      "rank": 3,
+      "id": "latest-tech-trends",
+      "slug": "latest-tech-trends",
+      "title": "Inside the latest tech trends"
+    },
+    {
+      "rank": 4,
+      "id": "us-military-strike-drug-boats",
+      "slug": "us-military-strike-drug-boats",
+      "title": "US military says five killed in latest strike on alleged drug boats"
+    }
+  ],
+  "pictures": [
+    {
+      "id": "scenes-world-week",
+      "slug": "scenes-world-week",
+      "caption": "Scenes from across the world this week",
+      "image": "/assets/images/news/pic-1.webp"
+    },
+    {
+      "id": "moments-major-events",
+      "slug": "moments-major-events",
+      "caption": "Moments captured during major events",
+      "image": "/assets/images/news/pic-2.webp"
+    }
+  ],
+  "footer": {
+    "primaryLinks": [
+      "Home",
+      "News",
+      "Sport",
+      "Business",
+      "Innovation",
+      "Culture",
+      "Arts",
+      "Travel",
+      "Earth",
+      "Audio",
+      "Video",
+      "Live",
+      "Weather",
+      "BBC Shop",
+      "BritBox"
+    ],
+    "utilityLinks": [
+      "Terms of Use",
+      "Subscription Terms",
+      "About the BBC",
+      "Privacy Policy",
+      "Cookies",
+      "Accessibility Help",
+      "Contact the BBC",
+      "Advertise with us",
+      "Do not share or sell my info",
+      "BBC.com Help & FAQs",
+      "Content Index"
+    ],
+    "socialLinks": [
+      "X",
+      "Facebook",
+      "Instagram",
+      "TikTok",
+      "LinkedIn",
+      "YouTube"
+    ],
+    "languageSelector": {
+      "label": "BBC in other languages"
+    },
+    "copyright": "Copyright © 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites.",
+    "externalNote": "Read about our approach to external linking."
+  },
+  "navigation": {
+    "mainMenu": [
+      { "label": "Home", "url": "/" },
+      { "label": "News", "url": "/news" },
+      { "label": "Sport", "url": "/sport" },
+      { "label": "Business", "url": "/business" },
+      { "label": "Innovation", "url": "/innovation" },
+      { "label": "Culture", "url": "/culture" },
+      { "label": "Arts", "url": "/arts" },
+      { "label": "Travel", "url": "/travel" },
+      { "label": "Earth", "url": "/future-planet" },
+      { "label": "Audio", "url": "/sounds" },
+      { "label": "Video", "url": "/video" },
+      { "label": "Live", "url": "/live" }
+    ],
+    "newsSubMenu": [
+      { "label": "Israel-Gaza War", "url": "/news/topics/israel-gaza-war" },
+      { "label": "War in Ukraine", "url": "/news/war-in-ukraine" },
+      { "label": "US & Canada", "url": "/news/us-canada" },
+      { "label": "UK", "url": "/news/uk" },
+      { "label": "Africa", "url": "/news/africa" },
+      { "label": "Asia", "url": "/news/asia" },
+      { "label": "Australia", "url": "/news/australia" },
+      { "label": "Europe", "url": "/news/europe" },
+      { "label": "Latin America", "url": "/news/latin_america" },
+      { "label": "Middle East", "url": "/news/middle_east" },
+      { "label": "In Pictures", "url": "/news/in_pictures" },
+      { "label": "BBC InDepth", "url": "/news/indepth" },
+      { "label": "BBC Verify", "url": "/news/reality_check" }
+    ]
+  }
+}
